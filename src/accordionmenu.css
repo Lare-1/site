@@ -1,0 +1,65 @@
+/* @author Tim himself */
+
+.accordionmenu1 h3 {
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	text-align: left;
+	border-radius: 4px;
+	padding: 14px 12px;
+	cursor: pointer;
+	margin-top: 0;
+	margin-bottom: 9px;
+	padding-right: 40px;
+	transition: 0.25s all;
+	position: relative;
+	font-size: 19px;
+	
+}
+.accordionmenu1 h3.active {
+	margin-bottom: 21px;
+	background: #12b8fd;
+}
+.accordionmenu1 h3::before {
+	content: attr(data-prefix);
+	font-size: 12px;
+	margin-right: 9px;
+}
+.accordionmenu1 h3.alignLeft {
+	padding-left: 35px;
+}
+.accordionmenu1 > div {
+	display: none;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #cdcdcd;
+	text-align: left;
+	padding: 31px 33px;
+	margin-bottom: 9px;
+	line-height: 2;
+	font-size: 17px;
+}
+.accordionmenu1 .arrowDown {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13.0px 7.5px 0 7.5px;
+	border-color: #272e35 transparent transparent transparent;
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+	transition: 0.25s all;
+	opacity: 0;
+}
+.accordionmenu1 .collapseIcon {
+	position: absolute;
+	right: 20px;
+	top: 45%;
+	font-size: 25px;
+	font-weight: 300;
+	-ms-transform: translate(0, -50%);
+	    transform: translate(0, -50%);
+}
+.accordionmenu1 .collapseIcon.alignLeft {
+	right: initial;
+	left: 20px;
+}

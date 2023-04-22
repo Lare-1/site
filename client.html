@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta name="ROBOTS" content="all">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Plate-forme</title>
+		
+		<link rel="stylesheet" href="bootstrap-5.2.3-dist/css/style.css">
+		<link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+		<script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>	
+ 	    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css"/>
+	    <script src="fontawesome-free-6.2.1-web/js/all.min.js"></script>
+		<script src="bootstrap-5.2.3-dist/js/fwrite.js"></script>
+		 
+		<link href="src/accordionmenu.css" rel="stylesheet" type="text/css">		
+		<style>			 
+		   .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {outline: none;box-shadow: none;border: 0;}
+		</style>
+    </head>
+    <body>
+        <div class="d-flex justify-content-end" id="head-top">
+		    <div class="p-2  me-5" id="comp1">
+			    <a href="demande.html" type="button" class="btn btn-info btn-sm rounded-pill">Demande</a>		
+			</div> 
+			<div id="comp2" class="p-2 me-5">
+			    <select class="select">
+	                 <option selected>Français</option>
+	                 <option value="1">English</option>  
+	            </select>
+			</div>
+		</div>
+		<!-- <nav class="navbar navbar-expand-sm bg-light sticky-md-top sticky-lg-top sticky-xl-top sticky-xxl-top" > -->
+        <nav class="navbar navbar-expand-md bg-light sticky-top">
+		    <div class="container-fluid" id="container-fluid">
+				<a class="navbar-brand" href="#"><span class="band">SPACEDATA</span></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse justify-content-end"  id="navbarSupportedContent">
+					<ul class="navbar-nav" id="menu_navbar">  <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="index.html">ACCUEIL</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">EXPERTISES</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="web_site.html">Sites Vitrines</a></li>
+								<li><a class="dropdown-item" href="e-commerce.html">Sites de E-Commerce</a></li>
+								<li><a class="dropdown-item" href="application.html">Applications</a></li>
+								<li><a class="dropdown-item" href="security.html">Sécurité des données</a></li>
+								<li><a class="dropdown-item" href="donnees.html">Bases de données</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" aria-current="page" href="client.html">CLIENTS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">CONTACT</a>
+						</li>
+					</ul>				  
+				</div>
+				 
+		    </div>
+		</nav>
+        <!-- corps de body -->
+		<!-- container of carousel -->
+		<div class="container_fluid" id="client-start">
+		    <div class="container">
+			     <br><br><br>
+				<h4>NOTRE RÉUSSITE PASSE PAR CELLE DE NOS CLIENTS</h4>
+				 <br><br>
+				<div class="row">
+					<div class="col-md-12">
+					    <h3 id="client-title">Une équipe de professionnels à l’écoute de vos besoins</h3>
+						<p>Il n'est pas toujours facile d'exprimer des idées dans des termes et des langues peu familiers. 
+						   C'est un problème très fréquent auquel sont confrontés les clients peu riches en culture informatique 
+						   et qui souhaitent développer des applications mobiles Android ou iOS avec des fonctionnalités 
+						   spécifiques pour améliorer leur activité. Si ces derniers besoins ne sont pas bien identifiés lors 
+						   du pitch, le projet global est mal abordé.
+						</p><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p>Notre accompagnement consiste à améliorer l'expérience digitale de nos clients tout au long de nos 
+						   projets communs. Nous leur offrons notre expertise et un accompagnement engagés dans la 
+						  digitalisation de leurs activités et de leurs processus métiers. La confiance de nos partenaires 
+						  ainsi que la satisfaction de nos clients restent pour nous les grands indicateurs de notre réussite.
+						</p><br>
+					</div>
+				</div>
+				<div class="row align-items-center"><br>
+				    <h4 id="client-title1">Nous contactez pour vous accompagner dans vos projets</h4>
+					<div class="col-md-6"><br>
+						<img id="image8" src="bootstrap-5.2.3-dist/images/client1.PNG" class="img-fluid" alt="">
+					</div>
+					<div class="col-md-6"><br>
+						<div class="formular">
+                            <div class="card pt-5 pb-4 px-4">
+                                <form class="needs-validation" action="#" method="POST" novalidate>
+								    	
+									<div class="input-group">
+										<span class="input-group-text" id="addon-wrapping">Nom Complet<span style="color:red;"> *</span></span>
+										<input type="text" class="form-control" id="firstname"  required>
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-text" id="addon-wrapping">Email<span style="color:red;"> *</span></span>
+										<input type="text" class="form-control" id="email" required>
+									</div>
+										
+									<div class="input-group">
+										<span class="input-group-text" id="addon-wrapping">Téléphone</span>
+										<input type="text" class="form-control" id="phonenumber" required>
+									</div>
+									<div class="input-group">
+										<span class="input-group-text" id="addon-wrapping">Ville<span style="color:red;"> *</span></span>
+										<input type="text" class="form-control" id="ville"  required>
+									</div>
+									<div class="input-group">
+										<span class="input-group-text" id="addon-wrapping">Pays<span style="color:red;"> *</span></span>
+										<input type="text" class="form-control" id="pays"  required>
+									</div>
+											
+									<div class="form-group" id="TitleOther" style="display:none;">
+										<label>Télécharger le CV ou Document</label>
+										<input type="file" class="form-control" id="file">
+									</div>
+									
+									<div class="input-group">
+										<span class="input-group-text" id="addon-wrapping">Poste Actuel<span style="color:red;"> *</span></span>
+										<select class="form-select" id="selectoption" required>
+										  <option selected value="">Vous êtes...</option>
+										  <option value="1">Société</option>
+										  <option value="2">Administration</option>
+										  <option value="6">Association</option>
+										  <option value="6">Startup</option>
+										  <option value="6">Autres</option>
+										</select>
+									</div>
+									<div class="input-group">
+										<span class="input-group-text" id="addon-wrapping">Message<span style="color:red;"> *</span></span>
+										<textarea rows="5" cols="4" class="form-control" name="textarea" id="textarea"  required></textarea>
+									</div>
+									<div class="form-group">
+										<div class="form-check">
+										    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+										    <label class="form-check-label" for="invalidCheck">
+											<span type="button" style="color:#8000ff;" id="liveAlertBtn">Agree to terms and conditions </span>. You must agree before submitting.</label>
+											<div id="liveAlertPlaceholder"></div>									
+										</div><br>
+									</div>
+						
+									<div class="form-group">
+									    <button class="btn btn-danger" type="Submit">Envoyer</button>
+										<button class="btn btn-warning float-end" type="Reset">Annuler</button>
+									</div>
+								</form>
+								<!-- script pour afficher les champs vides en rouge -->
+								<script type="text/javascript">
+									(() => {'use strict'
+									// Fetch all the forms we want to apply custom Bootstrap validation styles to
+									const forms = document.querySelectorAll('.needs-validation')
+									// Loop over them and prevent submission
+									Array.from(forms).forEach(form => {
+									    form.addEventListener('submit', event => {
+											if (!form.checkValidity()) {
+												event.preventDefault()
+												event.stopPropagation()
+											}
+											form.classList.add('was-validated')
+											}, false)
+										})
+									})()
+								</script>
+								<!-- script pour lire et accepter l'envoie des données -->
+								<script type="text/javascript">
+								const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+									const alert = (message, type) => {
+									  const wrapper = document.createElement('div')
+									  wrapper.innerHTML = [
+										`<div class="alert alert-${type} alert-dismissible" role="alert">`,
+										`   <div>${message}</div>`,
+										'   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+										'</div>'
+									  ].join('')
+									  alertPlaceholder.append(wrapper)
+									}
+									const alertTrigger = document.getElementById('liveAlertBtn')
+									if (alertTrigger) {
+									  alertTrigger.addEventListener('click', () => {
+										alert('Vos données ne seront ni divulguées, ni interceptées, ni vendues à qui que ce soit.', 'success')
+									  })
+									}
+								</script>
+                            </div>								
+						</div>
+					</div>
+				</div><br><br><br><br>
+			</div>
+		</div>
+		<!-- end of container of carousel -->
+		
+		<!-- end of container of index-third -->
+		<div class="container-fluid" id="container_background">	
+			<!-- container of index-four -->
+			<div class="container">
+				
+			</div>
+			
+			<div class="main__bg"></div>
+			<div class="main__bg layer1"></div>
+			<div class="main__bg layer2"></div>
+		</div>
+		<!-- end of container of index-four -->
+		
+		<!-- container of social media -->
+        <div class="container-fluid">		    
+            <div class="position-fixed top-50 start-0 translate-middle d-none d-md-block d-lg-block d-xxl-block">			
+				<div class="icon-bar" style="">
+					<a class="d-block facebook"><i class="fa-brands fa-square-facebook" style="color:#0000CD"></i></a> 
+					<div class="d-block twitter"><i class="fa-brands fa-square-twitter" style="color:#00ACEE"></i></div> 
+					<div class="d-block linkedin"><i class="fa-brands fa-linkedin" style="color:#0A66C2"></i></div>
+					<div class="d-block youtube"><i class="fa-brands fa-square-youtube" style="color:#FF0000;"></i></div> 
+				</div>
+			</div>
+			<style>
+			   .icon-bar .facebook, .icon-bar .twitter, .icon-bar .linkedin, .icon-bar .youtube {font-size: 30px; padding-left:20px; margin-left: 20px;
+			   width: 25px; height: 30px; margin-top: 10px; }
+			  
+			   .icon-bar .facebook :hover {width: 30px; height: 35px; }
+			   .icon-bar .twitter :hover {width: 30px; height: 35px; }
+			   .icon-bar .linkedin :hover {width: 30px; height: 35px; }
+			   .icon-bar .youtube :hover {width: 30px; height: 35px; }
+			</style>
+			<!-- whatsapp fixed -->
+			<div class="position-fixed top-100 start-100 translate-middle d-none d-md-block d-lg-block d-xxl-block">								
+				<button type="button" class="btn rounded-pill" id="circlewhatsap">
+					<a href="https://wa.me/212656405396?text=DISCUTER%20DIRECTEMENT%20AVEC%20SPACEDATA" target="_blank">
+					    <i class="fa-brands fa-whatsapp" id="buttonwhatsap" 
+					        style="margin-bottom:100px; margin-right:100px; background-color: #25D366; color:#fff; font-size:28px;">
+					    </i>
+					</a>
+				</button>				
+			</div>	
+			<!-- end of whatsapp fixed -->
+		</div>	
+		<!-- end container of social media -->
+		
+        <!-- footer -->
+		<div class="container-fluid" style="background-color: rgb(255, 238, 204);">
+		    <div id="" style="border-top: 0px solid #000; width : 100%px;"><hr></div>
+		    <div class="container"><br><br>
+			    <div class="row pt-2">
+				    <div class="col-md-3" >
+						<p id="titlfooter" style="font-weight: bold; text-decoration: underline; font-size: 14px;">SPACEDATA</p>
+						<p>Nous un Cabinet qui fournit des services techniques pour accompagner nos clients dans leurs visions. 
+						   Nous sommes spécialisés dans la conception des applications sur mesures, éfficaces et sécurisées dans nos missions.
+						</p><br>
+					</div>
+					<div class="col-md-3" style="border-inline: 1px solid gray;">
+					   <p id="titlfooter" style="font-weight: bold; text-decoration: underline; font-size: 14px;">NOUS CONTACTEZ</p>
+					   <p><a href="">À propos de nous</a></p>
+                       <p><i class="fa-solid fa-location-dot"></i> : Conakry - Guinée </p>
+                       <p><i class="fa-solid fa-location-dot"></i> : Casablanca - Maroc </p>					   
+                       <p><i class="fa-solid fa-envelope"></i> : spacedata@gmail.com</p>	
+                       <br>						   
+					</div>
+					<div class="col-md-3" style="border-right: 1px solid gray;">
+						<p id="titlfooter" style="font-weight: bold; text-decoration: underline; font-size: 14px;">LIENS UTILES</p>
+						<p><a href="#">Plan du site</a></p> 
+						<p><a href="#">Demander un devis</a></p>
+						<p><a href="#">Devenir collaborateur</a></p>
+						<p><a href="#">Obtenir des conseils</a></p><br>
+					</div>
+					<div class="col-md-3">
+						<p id="titlfooter" style="font-weight: bold; text-decoration: underline; font-size: 14px;">RÉSEAUX SOCIAUX</p>
+						<p><i class="fa-solid fa-comment" style="color:#000; font-weight:bold;"></i><a href="#"> Facebook</a></p>
+						<p><i class="fa-solid fa-comment" style="color:#000; font-weight:bold;"></i><a href="#"> LinkedIn</a></p>
+						<p><i class="fa-solid fa-comment" style="color:#000; font-weight:bold;"></i><a href="#"> Twitter</a></p> 
+					</div>
+				</div>
+		    </div><br>
+		    <!-- premier trait -->
+		    <div id="" style="border-top: 0px solid #000; width : 100%;"><hr></div>
+		
+		    <div class="container">
+		        <p class="d-flex justify-content-center">Copyright © 2023 Tous droits réservés | L@D | SPACEDATA </p>
+		    </div>	
+		    <!-- dernier trait -->
+            <div id="" style="border-top: 0px solid #000; width : 100%px;"><hr></div>		
+		</div>
+		<!-- end of footer -->
+				
+    </body>
+</html>

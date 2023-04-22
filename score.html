@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery accordion menu plugin example</title>
+<style>
+    
+  </style>
+
+<link href="src/accordionmenu.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>jQuery accordion menu Plugin Example</h1>
+    <div class="accordionmenu1">
+      <h3>Section One</h3>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <h3>Section Two</h3>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <h3>Section Three</h3>
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="src/accordionmenu.js"></script>
+<script>
+$(document).ready(function() {
+    $('.accordionmenu1').accordionmenu1({
+      collapsible: true,
+         });
+  });
+</script>
+</body>
+</html>
